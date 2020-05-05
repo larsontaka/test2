@@ -1,0 +1,98 @@
+body 
+{
+    background:url("https://images.pexels.com/photos/6229/marketing-board-strategy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    Background-size: cover;
+    font-family:sans-serif;     
+}
+
+    Header {
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+
+}
+    .head {
+        color:#fff;
+        font-Size: 0.8rem;
+        word-spacing: 0.7;
+        float: left; /* 1rem= 16px*/
+}
+
+    nav {
+        float: right;
+}
+
+     ul{
+        border-left: 3px solid coral;
+}
+
+li {
+    display: inline;
+    padding-right: 1.7rem;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.quote {
+    background-color: #E8290B;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3 rem;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+showcase H1{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+showcase h3{
+    font-size: 2rem;
+    color:#fff;   
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+showcase p {
+    color: #fff;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+a button{
+    background-color: transparent;
+    color:orange;
+    border: 2px solid #fff;
+    padding: 0.7 rem 1 rem;
+    border-radius: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+aside{
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.price{
+    color: gold;
+    font-size: 3rem;
+    padding-left: 0.7rem; 
+}
+.btn{
+    background-color: #E44236;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
