@@ -32,10 +32,10 @@ footer{
 
 }
 Div {
-    background:
-    width:10px ;
+    /* background:; */
+    width:10px;
     margin: auto;
-    display: inline;
+    display: inline-block;
 }
 Ul{
     margin: 0;
@@ -69,7 +69,7 @@ section.second{
     color: black;
 }
 footer.third{
-    background:;
+    /* background:; */
     color:white;
     font-size: px;
     text-align: left;
@@ -94,15 +94,13 @@ Header{
         text-align: center;
     
 }
-@media screen and  (mini-width: 900px)
-Header{  
-    h1{
+@media screen and  (mini-width: 900px){
+    h1 {
         text-align: left;  
 }
    Header {
        margin: 15px;
        padding: 15px ;
        text-align: right; 
- 
 }
-
+}
