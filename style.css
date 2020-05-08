@@ -94,3 +94,15 @@ Header{
         text-align: center;
     
 }
+@media screen and  (mini-width: 900px)
+Header{  
+    h1{
+        text-align: left;  
+}
+   Header {
+       margin: 15px;
+       padding: 15px ;
+       text-align: right; 
+ 
+}
+
