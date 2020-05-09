@@ -27,15 +27,15 @@ Section {
 footer{
     
     color: black;
-    padding: 90px 20px ;
+    padding: 90px 20px;
     text-align: center;
 
 }
 Div {
-    /* background:; */
-    width:10px;
+    background:black;
+    width:10px ;
     margin: auto;
-    display: inline-block;
+    display: inline;
 }
 Ul{
     margin: 0;
@@ -69,7 +69,7 @@ section.second{
     color: black;
 }
 footer.third{
-    /* background:; */
+    background:purple;
     color:white;
     font-size: px;
     text-align: left;
@@ -79,11 +79,20 @@ footer.third{
 
 
 /*Responsive rules*/
-@media screen and  (mini-width: 900px)
-Header{   
- 
+@media screen and (mini-width: 360px){
+Header {   
+    margin: 20px;
+    padding: 20px ;
+    text-align: center;
+    font-size: 2rem;
 }
 
+footer.third {
+    color:yellow;
+    font-size: 2px;
+    text-align: center;
+
+}
 @media (min-width: 500px) {
     h1{
          text-align: left;  
@@ -95,7 +104,7 @@ Header{
     
 }
 @media screen and  (mini-width: 900px){
-    h1 {
+    h1{
         text-align: left;  
 }
    Header {
